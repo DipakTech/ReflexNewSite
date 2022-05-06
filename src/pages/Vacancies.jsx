@@ -65,6 +65,12 @@ const FormInformation = styled.div`
         box-sizing: border-box;
         border-radius: 4px;
       }
+
+      .btnstyle {
+        display: flex;
+        position: absolute;
+        right: 0;
+      }
     }
 
     .formgrop {
@@ -95,9 +101,15 @@ const FormInformation = styled.div`
     }
 
     .line {
-      width: 100%;
+      /* width: 100%;
       height: 0px;
       background-color: #444;
+      border: 3px solid rgba(0, 0, 0, 0.2); */
+      width: 700px;
+      height: 0px;
+      left: 78px;
+      top: 1534px;
+
       border: 3px solid rgba(0, 0, 0, 0.2);
     }
   }
@@ -210,10 +222,8 @@ const Vacancies = () => {
                   </label>
                   <textarea type='textarea' />
                 </div>
-                <div>
-                  <button type='submit' className='btn'>
-                    Submit
-                  </button>
+                <div className='btnstyle'>
+                  <button type='submit'>Submit</button>
                 </div>
               </form>
               <ImageStyle>

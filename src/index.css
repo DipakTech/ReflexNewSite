@@ -146,11 +146,10 @@ ul {
   object-fit: cover;
 }
 
-.body{
+.body {
   max-width: 600px;
 }
 /* buttons */
-
 
 .btn {
   /* margin-top: 30px; */
@@ -255,6 +254,7 @@ ul {
 .title p {
   position: relative;
   display: inline-block;
+  /* font-size: 40px; */
 }
 .title .style-inverted {
   position: absolute;
